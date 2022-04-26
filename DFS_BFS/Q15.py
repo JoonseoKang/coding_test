@@ -18,6 +18,7 @@ while q:
             distance[next_node] = distance[now] + 1
             q.append(next_node)
 
+
 check = False
 for i in range(1, n+1):
     if distance[i] == k:

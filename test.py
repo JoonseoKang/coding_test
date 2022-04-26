@@ -8,6 +8,7 @@ arr[0][0]
 
 arr[0][0:2]
 
+
 tmp = []
 for i in arr:
     tmp.append(i[0])
